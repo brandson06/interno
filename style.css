@@ -1,0 +1,159 @@
+/* RESET : permet d'effacer le style par défaut imposé par le navigateur*/
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, 0.441);
+    border: 5px;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+}
+.btnPrimary {
+    font-size: 25px;
+}
+.btnSecondary {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+/* rendre flexible un parent = aligner ses enfants */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.centerBetween{
+    justify-content: center;
+}
+.spaceAround {
+    justify-content: space-around;
+}
+
+.spaceEnd{
+    justify-content: flex-end;
+}
+
+.revers {
+    flex-direction: row-reverse;
+}
+.alignCenter {
+    align-items: center;
+}
+
+.alignEnd{
+    align-items: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* CLASSES DE DIMENSIONS */
+
+.w-50 {
+    width: 50%;
+}
+
+.w-48{
+    width: 48%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+
+.w-25 {
+    width: 24%;
+}
+
+
+/* HEADER */
+
+.logo {
+    width: 55px
+}
+
+header ul {
+    list-style: none;
+
+}
+
+header {
+    padding: 10px 64px;
+    /* background-color: gainsboro; */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.372);
+}
+
+
+/* SECTION HERO*/
+
+.sectionHero {
+    background-image: url(asset/Placeholder-img-rect-big..png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.sectionHero div {
+    text-align: center;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+.sectionHero div>p {
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+
+/* SECTION 2 */
+
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+.marginTop100 {
+    margin-top: 100px;
+}
+
+.card {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.566);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.bgred {
+    background-color: brown;
+}
+
