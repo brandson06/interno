@@ -1,8 +1,12 @@
 /* RESET : permet d'effacer le style par défaut imposé par le navigateur*/
- *{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+.borderTop {
+    border-top: 50px
 }
 
 .paddingcube {
@@ -11,6 +15,11 @@
 
 }
 
+.colorwhite {
+    color: white;
+}
+
+
 .btn {
     background-color: rgba(0, 0, 0, 0.441);
     border: 5px;
@@ -18,9 +27,49 @@
     padding: 5px 15px;
     display: inline-block;
 }
+
+
 .btnPrimary {
     font-size: 25px;
+    color: #ffffff;
+    background-color: #292F36;
+    border-radius: 18px;
+    padding-left: 48px;
+    padding-bottom: 26px;
+    padding-top: 26px;
+    padding-right: 48px;
+    transform: scale(0.8);
 }
+
+.cuisine {
+    border-top-right-radius: 80px;
+}
+
+.entree {
+    border-top-left-radius: 80px;
+}
+
+.bureau {
+    border-bottom-right-radius: 80px;
+}
+ .cabinet {
+
+    border-bottom-left-radius: 80px;
+ }
+
+.btnNoP {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #292F36;
+    border-radius: 18px;
+    padding-left: 48px;
+    padding-bottom: 26px;
+    padding-top: 26px;
+    padding-right: 48px;
+    transform: scale(0.8);
+}
+
+
 .btnSecondary {
     font-size: 14px;
 }
@@ -32,6 +81,7 @@
 .marginTop {
     margin-top: 20px;
 }
+
 
 h2 {
     font-size: 35px;
@@ -51,25 +101,29 @@ h2 {
     justify-content: space-between;
 }
 
-.centerBetween{
+
+
+.centerBetween {
     justify-content: center;
 }
+
 .spaceAround {
     justify-content: space-around;
 }
 
-.spaceEnd{
+.spaceEnd {
     justify-content: flex-end;
 }
 
 .revers {
     flex-direction: row-reverse;
 }
+
 .alignCenter {
     align-items: center;
 }
 
-.alignEnd{
+.alignEnd {
     align-items: flex-end;
 }
 
@@ -81,6 +135,7 @@ h2 {
 .AlignCenter {
     text-align: center;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -92,11 +147,11 @@ a {
     width: 50%;
 }
 
-.w-48{
+.w-48 {
     width: 48%;
 }
 
-.w-42{
+.w-42 {
     width: 42%;
 }
 
@@ -108,13 +163,20 @@ a {
     width: 30%;
 }
 
+.W8 {
+    width: 8%;
+}
+
+.W80 {
+    width: 80%;
+}
 
 .w-25 {
     width: 24%;
 }
 
 .W16 {
-    width:  16%;
+    width: 16%;
 }
 
 
@@ -136,6 +198,7 @@ header {
 }
 
 
+
 /* SECTION HERO*/
 
 
@@ -149,7 +212,7 @@ header {
     border-bottom-left-radius: 200px;
 }
 
-.arrondis{
+.arrondis {
     border-bottom-left-radius: 100px;
     border-top-right-radius: 250px;
 }
@@ -175,13 +238,32 @@ h1 {
     width: 100%;
 }
 
+.Container {
+    max-width: 1200px;
+    margin: 0;
+    text-align: center;
+}
+
+.container1 {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
+
+.taller {
+    height: 500px;
+}
+
+
 
 .marginTop100 {
     margin-top: 100px;
 }
 
 .card {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.566);
+    
     border-radius: 20px;
     padding: 25px;
 }
@@ -208,10 +290,38 @@ h1 {
 
 }
 
-.bgBeige {
-    background-color: antiquewhite;
+.bgB {
+    background-color: #e8e7e6;
 }
 
 .bgcube {
-    background-color: azure;
+    background-color: rgb(251, 251, 251);
+    height: 250px;
+    border-radius: 25px;
 }
+
+
+.marginUser {
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+
+.bgblue{
+    background-color: #292F36;
+    padding: 80px 0;
+}
+
+
+.bguser{
+    background-color: #F4F0EC;
+}
+
+
+.bgGreen {
+    background-color: green;
+    padding: 100px;
+
+}
+
